@@ -6,6 +6,7 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 private var nama:String = "Septian"
+    private var phone:String = "12345"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
